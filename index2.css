@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #555;
+  }
+  
+  /* Optional: Add more styles to make it look even better */
+  
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    transition: background-color 0.3s;
+  }
+  
+  /* Align the navbar to the right */
+  li:last-child {
+    float: right;
+  }
+  
